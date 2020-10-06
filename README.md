@@ -1,33 +1,35 @@
-# pandas-challenge
-Pandas homework for Monash Data Analytics Bootcamp. 
-Description of project is as follows.
+<!---Project Logo -->
+<br />
+<p align="center">
+  <h3 align="center">Heroes of Pymoli</h3>
+  <p align="center">
+    A Pandas Project
+    <br />
+</p>
+</p>
+
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Results](#results)
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
 ## Background
 
-The data dive continues!
-
-Now, it's time to take what you've learned about Python Pandas and apply it to new situations. For this assignment, you'll need to complete **one of two** (not both)  Data Challenges. Once again, which challenge you take on is your choice. Just be sure to give it your all -- as the skills you hone will become powerful tools in your data analytics tool belt.
-
-### Before You Begin
-
-1. Create a new repository for this project called `pandas-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, create a directory for the Pandas Challenge you choose. Use folder names corresponding to the challenges: **HeroesOfPymoli** or  **PyCitySchools**.
-
-4. Add your Jupyter notebook to this folder. This will be the main script to run for analysis.
-
-5. Push the above changes to GitHub or GitLab.
-
-## Option 1: Heroes of Pymoli
+Heroes of Pymoli
 
 ![Fantasy](Images/Fantasy.png)
 
-Congratulations! After a lot of hard work in the data munging mines, you've landed a job as Lead Analyst for an independent gaming company. You've been assigned the task of analyzing the data for their most recent fantasy game Heroes of Pymoli.
+In this project, I analysed the data from a video game company for their most recent fantasy game Heroes of Pymoli.
 
-Like many others in its genre, the game is free-to-play, but players are encouraged to purchase optional items that enhance their playing experience. As a first task, the company would like you to generate a report that breaks down the game's purchasing data into meaningful insights.
+Like many others in its genre, the game is free-to-play, but players are encouraged to purchase optional items that enhance their playing experience. First, I generated a report that breaks down the game's purchasing data into meaningful insights using Pandas and Jupyter notebook.
 
-Your final report should include each of the following:
+The final report includes each of the following:
 
 ### Player Count
 
@@ -56,7 +58,7 @@ Your final report should include each of the following:
 
 ### Age Demographics
 
-* The below each broken into bins of 4 years (i.e. &lt;10, 10-14, 15-19, etc.)
+* The below each broken into bins of 4 years (i.e. 6-10, 10-14, 15-19, etc.)
   * Purchase Count
   * Average Purchase Price
   * Total Purchase Value
@@ -64,7 +66,7 @@ Your final report should include each of the following:
 
 ### Top Spenders
 
-* Identify the the top 5 spenders in the game by total purchase value, then list (in a table):
+* Identified the the top 5 spenders in the game by total purchase value, then list (in a table):
   * SN
   * Purchase Count
   * Average Purchase Price
@@ -72,7 +74,7 @@ Your final report should include each of the following:
 
 ### Most Popular Items
 
-* Identify the 5 most popular items by purchase count, then list (in a table):
+* Identified the 5 most popular items by purchase count, then list (in a table):
   * Item ID
   * Item Name
   * Purchase Count
@@ -81,16 +83,36 @@ Your final report should include each of the following:
 
 ### Most Profitable Items
 
-* Identify the 5 most profitable items by total purchase value, then list (in a table):
+* Identified the 5 most profitable items by total purchase value, then list (in a table):
   * Item ID
   * Item Name
   * Purchase Count
   * Item Price
   * Total Purchase Value
 
-As final considerations:
+### Built With
+* [Python](https://www.python.org/about/)
+  * [pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html)
+  
 
-* You must use the Pandas Library and the Jupyter Notebook.
-* You must submit a link to your Jupyter Notebook with the viewable Data Frames.
-* You must include a written description of three observable trends based on the data.
-* See [Example Solution](HeroesOfPymoli/HeroesOfPymoli_starter.ipynb) for a reference on expected format.
+
+## Results
+Based on my analysis, I observed following trends.
+
+1. Most of the players are overwhelmingly males. About 84% of players are males.
+
+2. Players in the age group 20-24 years comprise the biggest population of the gamers. Targeting them might yield better results for gaming companies.
+
+3. Gender has little effect on average purchase per person. Therefore, it would be better to target gamers based on age instead of sex of the gamers.
+
+
+
+
+
+**Additional reference materials:**
+_Best-README-Template_ Retrieved from: [https://github.com/othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+
+
+
+
+
